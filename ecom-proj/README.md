@@ -24,3 +24,10 @@ You may also see any lint errors in the console.
  - make all files (actions, reduces,store)
  - make wrapper around react-application with provider
  - make redux store
+
+## what is actions 
+- Describes the changes in the state of  application
+- only  way to change the state is to emit an action an object dexcribing what happened
+- { type:"  "}
+- actions has type property and it should be defined in string  constraint
+-  action type always to be constant then good for
