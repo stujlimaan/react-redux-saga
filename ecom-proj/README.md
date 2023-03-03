@@ -14,11 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+
 ## `Required package`
- `  npx create-react-app project-name, 
-    npm install redux,
-    npm install react-redux,
-    npm install redux-saga `,
+    `  npx create-react-app project-name, 
+       npm install redux,
+       npm install react-redux,
+       npm install redux-saga `,
 
 ### Make Redux wrapper 
  - make all files (actions, reduces,store)
@@ -48,3 +49,7 @@ You may also see any lint errors in the console.
 - add image and css
 - send data from main component
 - get data in header component
+
+
+# Redux toolkit with new action and reducer file 
+    ` npm install @reduxjs/toolkit`
