@@ -51,5 +51,16 @@ You may also see any lint errors in the console.
 - get data in header component
 
 
-# Redux toolkit with new action and reducer file 
+## Redux toolkit with new action and reducer file
+
     ` npm install @reduxjs/toolkit`
+
+## `configure saga middleware`
+- make saga file and write saga basic function
+- Register saga middleware with store
+- check flow 
+
+        ` npm install redux-saga `
+
+
+![Screenshot](Screenshot (42).png)

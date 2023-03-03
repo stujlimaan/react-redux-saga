@@ -6,7 +6,7 @@ export const productlist=async ()=>{
     data = await data.json();
     console.log("productlist",data)
     return {
-        type:PRODUCT_LIST,
+        type:PRODUCT_LIST, 
         data
     }
 }
