@@ -1,11 +1,5 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -61,6 +55,19 @@ You may also see any lint errors in the console.
 - check flow 
 
         ` npm install redux-saga `
+## call api with saga and set result
+- call saga function from Action
+- make function in saga for API
+- send result from saga to Action
+- pass data to reducer
+- get data in main component
 
+## product list ui component
+- show product in ui
+- add styles in product ui
+- load product when page load
+- add cart and remove cart ui with api data
 
-![Screenshot](Screenshot (42).png)
+## remove to cart with id
+- apply filter function in reducer
+- test added product  in cart
