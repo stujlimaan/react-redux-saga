@@ -71,3 +71,9 @@ You may also see any lint errors in the console.
 ## remove to cart with id
 - apply filter function in reducer
 - test added product  in cart
+
+## make routing and cart page
+- install react router dom
+- make main and cart page
+- add link with pages
+- add style for header and logo
