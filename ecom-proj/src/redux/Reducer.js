@@ -11,14 +11,17 @@ export const cartData = (data=[],action)=>{
    
     switch(action.type){
         case ADD_TO_CART:
-            console.log("add to cart",data)
-              return data+1>0?data+1:0 
+            console.log("add to cart",action.data,[action.data,...data])
+              return [action.data,...data]
         case REMOVE_TO_CART:
             console.log("remove to cart")
-            return data>0?data-1:0
+            const remainingItem=data.filter((item)=>item.id!==action.data)
+            // data.length=data.length?data.length-1:[]
+            console.log("remaining item",remainingItem)
+            return [...remainingItem]
         case EMPTY_CART:
             return 0
         default :
-         return data
+         return [...data]
     }
 }

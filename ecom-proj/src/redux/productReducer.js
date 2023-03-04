@@ -1,9 +1,9 @@
-import {PRODUCT_LIST}from "./ActionTypes"
+import { SET_PRODUCT_LIST}from "./ActionTypes"
 export const productData=(data=[],action)=>{
     switch(action.type){
-        case PRODUCT_LIST:
-            console.log("product",data)
-            return [action.data]
-        default : return "no data"
+        case SET_PRODUCT_LIST:
+            return [...action.data]
+        default : 
+        return [...data]
     }
 }
