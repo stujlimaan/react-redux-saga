@@ -20,7 +20,7 @@ export const cartData = (data=[],action)=>{
             console.log("remaining item",remainingItem)
             return [...remainingItem]
         case EMPTY_CART:
-            return 0
+            return []
         default :
          return [...data]
     }

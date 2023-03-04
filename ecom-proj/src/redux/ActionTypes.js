@@ -5,3 +5,4 @@ export const EMPTY_CART='EMPTY_CART'
 //product action type
 export const PRODUCT_LIST='PRODUCT_LIST'
 export const SET_PRODUCT_LIST="SET_PRODUCT_LIST"
+export const SEARCH_PRODUCT="SEARCH_PRODUCT"
