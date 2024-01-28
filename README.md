@@ -50,5 +50,7 @@ Making a small project with add to cart , remove to cart, handle asynchronous ap
 
          sudo systemctl restart nginx 
 `
+- if you want to add enviroment variable then goto settings then click on secret and variable then actions -- then -- click create new repo envriroment
+- and set production name and values
                  
                
