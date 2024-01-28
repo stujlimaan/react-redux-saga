@@ -30,26 +30,24 @@ Making a small project with add to cart , remove to cart, handle asynchronous ap
       - step 8- add  the command in yml script of project to restart after every commit 
                -run: sudo pm2 restart server.js
       - step 9- config nginx and restart it 
-               Cd /etc/nginx
-               Cd sites-available
-               sudo nano default
+               ` Cd /etc/nginx`
+               `Cd sites-available`
+               `sudo nano default`
 
 
-   `
-         location /api/ {
-
+   ```
+        location /api/ {
         proxy_pass  http://localhost:8000/;
-
         proxy_set_header Host $host;
-
         proxy_set_header X-Real-IP $remote_addr;
-
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-
          }
+   ```
+   
+-  `
+    sudo systemctl restart nginx
+   ` 
 
-         sudo systemctl restart nginx 
-`
 - if you want to add enviroment variable then goto settings then click on secret and variable then actions -- then -- click create new repo envriroment
 - and set production name and values
   - to check enviroment variable on ubuntu but this file is hidden then type this command into terminal ` ls -la `
