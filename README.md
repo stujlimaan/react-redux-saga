@@ -51,5 +51,7 @@ Making a small project with add to cart , remove to cart, handle asynchronous ap
 - if you want to add enviroment variable then goto settings then click on secret and variable then actions -- then -- click create new repo envriroment
 - and set production name and values
   - to check enviroment variable on ubuntu but this file is hidden then type this command into terminal ` ls -la `
+- to start express server then go to root directory
+     - ``` pm2 restart server.js --name=backendApi ```
                  
                
