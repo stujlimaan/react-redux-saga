@@ -30,4 +30,4 @@ jobs:
     # if you have some enviroment variable then create and add using like this below
     - run: |
             touch .env
-            echo "${{ Secrets.Prod_Secret }}"
+            echo "${{ Secrets.Prod_Secret }}" > .env
